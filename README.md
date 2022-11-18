@@ -6,23 +6,23 @@ Works in with folders structure in project. This folders structure is good for o
 
 	.
 	├── assests                   
-	├── components							# common project components 
+	├── components                  # common project components 
 	├── modules                   
-	│	└── clients							# name your module
+	│	└── clients                  # name your module
 	│	│	│
 	│	│	└── components                  # components module
-	│	│	└── pages						# page views module
-	│	│	└── stores						# define Pinia store
-	│	│	└── ClientsModule.vue			# default first route module
-	│	│	└── services.js					# services module
+	│	│	└── pages                  # page views module
+	│	│	└── stores                  # define Pinia store
+	│	│	└── ClientsModule.vue                  # default first route module
+	│	│	└── services.js                  # services module
 	│	│	│
-	│	│	└── routes.js					# routes module
+	│	│	└── routes.js                  # routes module
 	│	│
-	│	└── orders							# another module
+	│	└── orders                  # another module
 	│	│	└── ...
 	│	│	└── routes.js
 	│	│
-	│	└── autoload.js 					# this is source autoload routes from all modules		
+	│	└── autoload.js                  # this is source autoload routes from all modules		
 	│
 	├── views
 	├── router
