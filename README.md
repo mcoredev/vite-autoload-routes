@@ -10,10 +10,10 @@ Works in with folders structure in project. This folders structure is good for o
 	├── modules                   
 	│	└── clients					# name your module
 	│	│	│
-	│	│	└── components					# components module
-	│	│	└── pages					# page views module
-	│	│	└── stores					# define Pinia store
-	│	│	└── ClientsModule.vue					# default first route module
+	│	│	└── components			# components module
+	│	│	└── pages				# page views module
+	│	│	└── stores				# define Pinia store
+	│	│	└── ClientsModule.vue	# default first route module
 	│	│	└── services.js			# services module
 	│	│	│
 	│	│	└── routes.js			# routes module
