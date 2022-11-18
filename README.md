@@ -100,5 +100,5 @@ export default router
 
 ```
 
-# Licenste
+# License
 MIT
