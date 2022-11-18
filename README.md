@@ -4,30 +4,30 @@ Code was modify from https://vitejs.dev/guide/features.html#glob-import
 
 Works in with folders structure in project. This folders structure is good for organized modules with separate logic.
 
-.
-├── assests                   
-├── components                	# common project components 
-├── modules                   
-│	└── clients					# name your module
-│	│	│
-│	│	└── components			# components module
-│	│	└── pages				# page views module
-│	│	└── stores				# define Pinia store
-│	│	└── ClientsModule.vue	# default first route module
-│	│	└── services.js			# services module
-│	│	│
-│	│	└── routes.js			# routes module
-│	│
-│	└── orders					# another module
-│	│	└── ...
-│	│	└── routes.js
-│	│
-│	└── autoload.js 			# this is source autoload routes from all modules		
-│
-├── views
-├── router
-│	└─ index.js
-└── ...
+	.
+	├── assests                   
+	├── components                	# common project components 
+	├── modules                   
+	│	└── clients					# name your module
+	│	│	│
+	│	│	└── components			# components module
+	│	│	└── pages				# page views module
+	│	│	└── stores				# define Pinia store
+	│	│	└── ClientsModule.vue	# default first route module
+	│	│	└── services.js			# services module
+	│	│	│
+	│	│	└── routes.js			# routes module
+	│	│
+	│	└── orders					# another module
+	│	│	└── ...
+	│	│	└── routes.js
+	│	│
+	│	└── autoload.js 			# this is source autoload routes from all modules		
+	│
+	├── views
+	├── router
+	│	└─ index.js
+	└── ...
 
 
 # Example: Module Clients routes.js
